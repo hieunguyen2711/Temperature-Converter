@@ -1,0 +1,50 @@
+body, html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: linear-gradient(to right, rgb(107, 142, 35), rgb(218, 165, 32));
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+
+}
+.mainContent {
+    border-width: 2px;
+    background-color: beige;
+    color: rgb(107, 142, 35);
+    
+    /* width: 50%; Or any width as per requirement */
+    /* padding: 20px; */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    display: inline-block;
+    padding: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.converter {
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-top: 10px;
+   
+}
+
+.alignItems {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+
+
+
